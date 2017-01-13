@@ -24,6 +24,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
+        view.addSubview(pageTitleView)
     }
 }
 
@@ -47,11 +48,11 @@ extension HomeViewController{
         //0.确定uibutton的 尺寸
         let size = CGSize.init(width: 40, height: 44)
         //1.创建历史按钮
-        let historyItem = UIBarButtonItem.init(imageName: "", highImageName: "", size: size, target: self, action: #selector(historyItemClick))
+        let historyItem = UIBarButtonItem.init(imageName: "Image_my_history", highImageName: "Image_my_history_click", size: size, target: self, action: #selector(historyItemClick))
         //2.创建二维码按钮
-        let qrCodeItem = UIBarButtonItem.init(imageName: "", highImageName: "", size: size, target: self, action: #selector(qrCodeItemClick))
+        let qrCodeItem = UIBarButtonItem.init(imageName: "Image_scan", highImageName: "Image_scan_click", size: size, target: self, action: #selector(qrCodeItemClick))
         //3.创建搜索按钮
-        let searchItem = UIBarButtonItem.init(imageName: "", highImageName: "", size: size, target: self, action: #selector(searchItemClick))
+        let searchItem = UIBarButtonItem.init(imageName: "btn_search", highImageName: "btn_search_clicked", size: size, target: self, action: #selector(searchItemClick))
         
         navigationItem.rightBarButtonItems = [historyItem, searchItem, qrCodeItem]
     }
