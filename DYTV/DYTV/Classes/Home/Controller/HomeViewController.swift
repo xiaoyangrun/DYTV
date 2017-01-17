@@ -15,15 +15,19 @@ class HomeViewController: UIViewController {
     private lazy var pageTitleView: PageTitleView = {
         let titleFrame = CGRect.init(x: 0, y: 64, width: UIScreen.main.bounds.size.width, height: 44)
         let titles = ["推荐", "游戏", "娱乐", "去玩"];
-        let titleView = PageTitleView.init(frame: titleFrame, titles: titles)
-        titleView.backgroundColor = UIColor.green
+        let titleView = PageTitleView.init(frame: titleFrame, titles: titles, isScrollEnable: false)
+        
         return titleView
     }()  //记得加上 ()
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //记得添加, 不添加就显示不出来
+        automaticallyAdjustsScrollViewInsets = false
+        //设置导航栏
         setupNavigationBar()
+        //添加pageTitleView
         view.addSubview(pageTitleView)
     }
 }
