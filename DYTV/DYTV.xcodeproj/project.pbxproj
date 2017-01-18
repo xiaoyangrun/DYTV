@@ -16,6 +16,7 @@
 		446F14081E265E5000F2DE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446F14061E265E5000F2DE17 /* Main.storyboard */; };
 		446F140A1E265E5000F2DE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446F14091E265E5000F2DE17 /* Assets.xcassets */; };
 		446F140D1E265E5000F2DE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446F140B1E265E5000F2DE17 /* LaunchScreen.storyboard */; };
+		7B53D4901E2F4DEF008E7842 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B53D48F1E2F4DEF008E7842 /* PageContentView.swift */; };
 		7B99D7A71E2E1E1500C4FD02 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7A61E2E1E1500C4FD02 /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		446F14091E265E5000F2DE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446F140C1E265E5000F2DE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		446F140E1E265E5000F2DE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B53D48F1E2F4DEF008E7842 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		7B99D7A61E2E1E1500C4FD02 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				4412067C1E268C7700C05F8E /* PageTitleView.swift */,
+				7B53D48F1E2F4DEF008E7842 /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				446F14031E265E5000F2DE17 /* AppDelegate.swift in Sources */,
 				7B99D7A71E2E1E1500C4FD02 /* UIColor-Extension.swift in Sources */,
 				4412066B1E26811B00C05F8E /* HomeViewController.swift in Sources */,
+				7B53D4901E2F4DEF008E7842 /* PageContentView.swift in Sources */,
 				4412067D1E268C7700C05F8E /* PageTitleView.swift in Sources */,
 				4412067B1E26822300C05F8E /* UIBarButtonItem-Extension.swift in Sources */,
 				441206761E26814B00C05F8E /* MainViewController.swift in Sources */,
